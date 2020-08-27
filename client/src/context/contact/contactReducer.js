@@ -33,7 +33,7 @@ export default (state, action) => {
         error: null,
         current: null,
       };
-    case DELETE_CONTACT:
+    case DELETE_CONTACT: 
       return {
         ...state,
         contacts: state.contacts.filter(

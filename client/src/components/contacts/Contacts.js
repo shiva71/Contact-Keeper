@@ -19,7 +19,7 @@ export const Contacts = () => {
     return <h4>Please add a contact</h4>;
   }
 
-  return (
+  return ( 
     <Fragment>
       {contacts !== null && !loading ? (
         <TransitionGroup>
